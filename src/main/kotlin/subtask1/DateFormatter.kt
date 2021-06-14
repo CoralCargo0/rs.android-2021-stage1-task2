@@ -5,7 +5,7 @@ import java.util.*
 
 
 class DateFormatter {
-    private var printedFormatterDate = SimpleDateFormat("dd MMMM, EEEE", Locale.getDefault())
+    private var printedFormatterDate = SimpleDateFormat("dd MMMM, EEEE", Locale("ru"))
 
     fun toTextDay(day: String, month: String, year: String): String {
 
