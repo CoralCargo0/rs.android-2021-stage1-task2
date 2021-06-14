@@ -8,7 +8,7 @@ class Task2DateFormatterTest {
 
     @Test
     fun testDateFormatter1() {
-        assertEquals("15 марта, воскресенье", formatter.toTextDay("15", "3", "2020"))
+            assertEquals("15 марта, воскресенье", formatter.toTextDay("15", "3", "2020"))
     }
 
     @Test
